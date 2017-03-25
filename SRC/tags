@@ -1,0 +1,233 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALGO_BFS_HPP_INCLUDED	algo_BFS.hpp	2;"	d
+ALGO_BRANCHES_HPP_INCLUDED	algo_branches.hpp	2;"	d
+ALGO_CHORDLESS_HPP_INCLUDED	algo_chordless.hpp	2;"	d
+ALGO_CLIQUE_HPP_INCLUDED	algo_clique.hpp	2;"	d
+ALGO_CLUSTERING_HPP_INCLUDED	algo_clustering.hpp	2;"	d
+ALGO_CYCLES_HPP_INCLUDED	algo_cycles.hpp	2;"	d
+ALGO_HPP_INCLUDED	algo.hpp	2;"	d
+ALGO_INTERVAL_HPP_INCLUDED	algo_interval.hpp	2;"	d
+ALGO_UNION_HPP_INCLUDED	algo_union.hpp	2;"	d
+BFS	algo_BFS.cpp	/^int BFS(graph & g, int start, vector<int> & par, int & last){$/;"	f
+BFS_ALL_DIS	algo_BFS.cpp	/^void BFS_ALL_DIS(graph & g, int ** dis){$/;"	f
+BFS_depth	algo_BFS.cpp	/^void BFS_depth(graph & g, int start, int depth, vector<int> & res){$/;"	f
+BFS_diametral_path	algo_BFS.cpp	/^int BFS_diametral_path(graph & g, int start, bool * used , const vector<bool> & diametral_p){$/;"	f
+BFS_plus	algo_BFS.cpp	/^void BFS_plus(graph & g, vector<int> & per, vector<int> & res){$/;"	f
+BFS_short_circuited	algo_BFS.cpp	/^int BFS_short_circuited(graph & g, int start, bool * used, int k){$/;"	f
+BFS_tree	algo_BFS.cpp	/^int BFS_tree(graph & g, int start, vector<int> & par, stack<pair<int,int>> & s){$/;"	f
+Color	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^Color::Color(int r,int b,int g){$/;"	f	class:Color	signature:(int r,int b,int g)
+Color	utility.hpp	/^struct Color{$/;"	s
+Color::Color	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^Color::Color(int r,int b,int g){$/;"	f	class:Color	signature:(int r,int b,int g)
+Color::get	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^int Color::get(int i) const {$/;"	f	class:Color	signature:(int i) const
+Color::set	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^void Color::set(int i, int c){$/;"	f	class:Color	signature:(int i, int c)
+DSU	dsu.cpp	/^DSU::DSU(int n): n(n){$/;"	f	class:DSU
+DSU	dsu.hpp	/^class DSU{$/;"	c
+DSU_HPP_INCLUDED	dsu.hpp	2;"	d
+DSU_HPP_INCLUDED	utility.hpp	2;"	d
+ELEM_HPP_INCLUDED	Elem.hpp	2;"	d
+Elem	Elem.cpp	/^Elem::Elem(int id, Klass * parent){$/;"	f	class:Elem
+Elem	Elem.hpp	/^class Elem{$/;"	c
+FOURsweep	algo_clique.cpp	/^void FOURsweep(graph & g, int & u, int & lb){$/;"	f
+GRAPH_IO_HPP_INCLUDED	GraphIO.hpp	2;"	d
+INF	algo_clique.cpp	/^const int INF = 1e9;$/;"	v
+KLASS_HPP_INCLUDED	Klass.hpp	2;"	d
+Klass	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass::Klass(int stamp, Elem * e){$/;"	f	class:Klass	signature:(int stamp, Elem * e)
+Klass	Klass.hpp	/^class Klass {$/;"	c
+Klass::Klass	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass::Klass(int stamp, Elem * e){$/;"	f	class:Klass	signature:(int stamp, Elem * e)
+Klass::checkNextSameStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^bool Klass::checkNextSameStamp(){$/;"	f	class:Klass	signature:()
+Klass::checkOnly	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^bool Klass::checkOnly(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+Klass::checkPrevSameStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^bool Klass::checkPrevSameStamp(){$/;"	f	class:Klass	signature:()
+Klass::getFirst	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Elem * Klass::getFirst(){$/;"	f	class:Klass	signature:()
+Klass::getNext	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass * Klass::getNext(){$/;"	f	class:Klass	signature:()
+Klass::getPrev	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass * Klass::getPrev(){$/;"	f	class:Klass	signature:()
+Klass::getStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^int Klass::getStamp(){$/;"	f	class:Klass	signature:()
+Klass::insertElemAfterSplit	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass* Klass::insertElemAfterSplit(int stamp, Elem * e){$/;"	f	class:Klass	signature:(int stamp, Elem * e)
+Klass::insertElemBeforeSplit	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass* Klass::insertElemBeforeSplit(int stamp, Elem * e){$/;"	f	class:Klass	signature:(int stamp, Elem * e)
+Klass::insertElemEnd	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::insertElemEnd(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+Klass::insertKlassAfter	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::insertKlassAfter(Klass * k){$/;"	f	class:Klass	signature:(Klass * k)
+Klass::insertKlassBefore	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::insertKlassBefore(Klass * k){$/;"	f	class:Klass	signature:(Klass * k)
+Klass::print	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::print(Klass * par){$/;"	f	class:Klass	signature:(Klass * par)
+Klass::remove	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::remove(){$/;"	f	class:Klass	signature:()
+Klass::setLast	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::setLast(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+Klass::setStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::setStamp(int stamp){$/;"	f	class:Klass	signature:(int stamp)
+Klass::updateFirstLast	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::updateFirstLast(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+PARTITION_REFINEMENT_HPP_INCLUDED	partition_refinement.hpp	2;"	d
+PARTITION_REFINEMENT_INTERVAL_HPP_INCLUDED	partition_refinement_interval.hpp	2;"	d
+PartRef	partition_refinement.cpp	/^PartRef::PartRef(vector<int>& ini) : init(ini) {$/;"	f	class:PartRef
+PartRef	partition_refinement.hpp	/^struct PartRef{$/;"	s
+PartRefInter	partition_refinement_interval.cpp	/^PartRefInter::PartRefInter(int n, vector<vector<int> > & v_in_c, vector<vector<int> > & edges,$/;"	f	class:PartRefInter
+PartRefInter	partition_refinement_interval.hpp	/^class PartRefInter{$/;"	c
+TEST_HPP_INCLUDED	test.hpp	2;"	d
+algo_cycles	algo_cycles.cpp	/^void algo_cycles(graph & g, int d, int k,vector<int> & assign){$/;"	f
+assign_get	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^int assign_get(map<int,int> & m, int & cur, int val){$/;"	f	signature:(map<int,int> & m, int & cur, int val)
+b	utility.hpp	/^	int r,b,g;$/;"	m	struct:Color
+begin	partition_refinement.hpp	/^	Klass * begin, * end, *current;$/;"	m	struct:PartRef
+begin	partition_refinement_interval.hpp	/^	Klass * begin, * end, *current;$/;"	m	class:PartRefInter
+branches	algo_branches.cpp	/^bool branches(graph & g, int d ,vector<int> & assign){$/;"	f
+calcCT	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^void calcCT(graph & g, cliqueTree & ct){$/;"	f	signature:(graph & g, cliqueTree & ct)
+calculate_intervals	algo_interval.cpp	/^void calculate_intervals(vector<vector<pair<int,int> > > & intervals,cliqueTree & ct){$/;"	f
+checkLeftNeighbourhood	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^bool checkLeftNeighbourhood(vector<int> & n1, vector<int> & n2){$/;"	f	signature:(vector<int> & n1, vector<int> & n2)
+checkNextSameStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^bool Klass::checkNextSameStamp(){$/;"	f	class:Klass	signature:()
+checkOnly	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^bool Klass::checkOnly(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+checkPrevSameStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^bool Klass::checkPrevSameStamp(){$/;"	f	class:Klass	signature:()
+check_interval	algo_interval.cpp	/^bool check_interval(graph & g){$/;"	f
+chordless_cycles	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo_chordless.cpp	/^void chordless_cycles(graph & g, vector<vector<int> >& cycles){$/;"	f	signature:(graph & g, vector<vector<int> >& cycles)
+cliqueTree	algo.hpp	/^struct cliqueTree{$/;"	s
+cliques	algo.hpp	/^	vector<vector<int> > cliques;$/;"	m	struct:cliqueTree
+cliques	partition_refinement_interval.hpp	/^	vector<vector<int > > & cliques;$/;"	m	class:PartRefInter
+compactCommunities	algo_clustering.cpp	/^void compactCommunities(graph & g, edges & e, int l, int & nbCommunities, vector<int>& assign){$/;"	f
+compactCommunities2	algo_clustering.cpp	/^void compactCommunities2(graph & g, graph_edge_nb & g1, edges & e, int l, int & nbCommunities, vector<int>& assign){$/;"	f
+construct_vertices_in_clique	algo_interval.cpp	/^void construct_vertices_in_clique(vector<vector<int> > & cliques, $/;"	f
+counter	partition_refinement_interval.hpp	/^	int timer,counter;$/;"	m	class:PartRefInter
+create_gephi_coloring	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool create_gephi_coloring(edges & e, const char * input, $/;"	f	signature:(edges & e, const char * input, int nbCommunities, vector<int>& assign)
+create_subgraph	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo_union.cpp	/^void create_subgraph(graph & subg,const edges & e,$/;"	f	signature:(graph & subg,const edges & e, const vector<int> & communities, const vector<int> &member)
+current	partition_refinement.hpp	/^	Klass * begin, * end, *current;$/;"	m	struct:PartRef
+current	partition_refinement_interval.hpp	/^	Klass * begin, * end, *current;$/;"	m	class:PartRefInter
+diameter	algo_clique.cpp	/^int diameter(graph & g){$/;"	f
+diameter_check	algo_clique.cpp	/^bool diameter_check(graph & g,int k){$/;"	f
+diameter_iFUB	algo_clique.cpp	/^int diameter_iFUB(graph & g){$/;"	f
+diametral_path	algo_interval.cpp	/^int diametral_path(graph & g,int k){\/\/vector<int> &path){$/;"	f
+e	GraphIO.hpp	/^	edges e;$/;"	m	struct:mapping
+e	GraphIO.hpp	/^	edges e;$/;"	m	struct:mapping_edge_nb
+edge_count	partition_refinement_interval.hpp	/^	vector<int> edge_count;$/;"	m	class:PartRefInter
+edges	GraphIO.hpp	/^struct edges{$/;"	s
+edges	algo.hpp	/^	vector<pair<int,vector<int> > > edges;$/;"	m	struct:cliqueTree
+edges	partition_refinement_interval.hpp	/^	vector<vector<int > > & edges;	$/;"	m	class:PartRefInter
+elements	partition_refinement.hpp	/^	vector<Elem*> elements;$/;"	m	struct:PartRef
+elements	partition_refinement_interval.hpp	/^	vector<Elem*> elements;$/;"	m	class:PartRefInter
+end	partition_refinement.hpp	/^	Klass * begin, * end, *current;$/;"	m	struct:PartRef
+end	partition_refinement_interval.hpp	/^	Klass * begin, * end, *current;$/;"	m	class:PartRefInter
+find	dsu.cpp	/^int DSU::find(int i){$/;"	f	class:DSU
+first	Klass.hpp	/^	Elem * first,* last;$/;"	m	class:Klass
+first	partition_refinement.hpp	/^	Elem * first, * last;$/;"	m	struct:PartRef
+first	partition_refinement_interval.hpp	/^	Elem * first, * last;$/;"	m	class:PartRefInter
+g	GraphIO.hpp	/^	graph g;$/;"	m	struct:mapping
+g	GraphIO.hpp	/^	graph_edge_nb g;$/;"	m	struct:mapping_edge_nb
+g	GraphIO.hpp	/^	vector<vector<int> > g;$/;"	m	struct:graph
+g	GraphIO.hpp	/^	vector<vector<pair<int,int> > >g;$/;"	m	struct:graph_edge_nb
+g	utility.hpp	/^	int r,b,g;$/;"	m	struct:Color
+generate_colors	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^void generate_colors(vector<Color> & colors, int n, bool op){$/;"	f	signature:(vector<Color> & colors, int n, bool op)
+generate_colors_deterministically	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^void generate_colors_deterministically(vector<Color> & colors, int n){$/;"	f	signature:(vector<Color> & colors, int n)
+generate_colors_randomly	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^void generate_colors_randomly(vector<Color> & colors, int n){$/;"	f	signature:(vector<Color> & colors, int n)
+get	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^int Color::get(int i) const {$/;"	f	class:Color	signature:(int i) const
+getElement	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^int getElement(int index) {$/;"	f	signature:(int index)
+getFirst	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Elem * Klass::getFirst(){$/;"	f	class:Klass	signature:()
+getId	Elem.cpp	/^int Elem::getId(){$/;"	f	class:Elem
+getNext	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass * Klass::getNext(){$/;"	f	class:Klass	signature:()
+getNext	Elem.cpp	/^Elem * Elem::getNext(){$/;"	f	class:Elem
+getParent	Elem.cpp	/^Klass * Elem::getParent(){$/;"	f	class:Elem
+getPattern	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^Color getPattern(int index) {$/;"	f	signature:(int index)
+getPrev	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass * Klass::getPrev(){$/;"	f	class:Klass	signature:()
+getPrev	Elem.cpp	/^Elem * Elem::getPrev(){$/;"	f	class:Elem
+getStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^int Klass::getStamp(){$/;"	f	class:Klass	signature:()
+get_maxCover_and_id	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool get_maxCover_and_id(const char * input, CovId & ci){$/;"	f	signature:(const char * input, CovId & ci)
+graph	GraphIO.hpp	/^struct graph{$/;"	s
+graph_edge_nb	GraphIO.hpp	/^struct graph_edge_nb{$/;"	s
+iFUB	algo_clique.cpp	/^int iFUB(graph & g, int u, int l, int k){$/;"	f
+id	Elem.hpp	/^	int id;$/;"	m	class:Elem
+id	algo_clustering.cpp	/^	int id;$/;"	m	struct:node	file:
+incrementEdgesCount	partition_refinement_interval.cpp	/^void PartRefInter::incrementEdgesCount(vector<int> & edges){$/;"	f	class:PartRefInter
+init	partition_refinement.hpp	/^	vector<int> & init;$/;"	m	struct:PartRef
+insertAfter	Elem.cpp	/^void Elem::insertAfter(Elem * e){$/;"	f	class:Elem
+insertBefore	Elem.cpp	/^void Elem::insertBefore(Elem * e){$/;"	f	class:Elem
+insertElemAfterSplit	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass* Klass::insertElemAfterSplit(int stamp, Elem * e){$/;"	f	class:Klass	signature:(int stamp, Elem * e)
+insertElemBeforeSplit	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^Klass* Klass::insertElemBeforeSplit(int stamp, Elem * e){$/;"	f	class:Klass	signature:(int stamp, Elem * e)
+insertElemEnd	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::insertElemEnd(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+insertKlassAfter	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::insertKlassAfter(Klass * k){$/;"	f	class:Klass	signature:(Klass * k)
+insertKlassBefore	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::insertKlassBefore(Klass * k){$/;"	f	class:Klass	signature:(Klass * k)
+inv	partition_refinement.hpp	/^	vector<int> per,inv;$/;"	m	struct:PartRef
+largeChordTest	algo_cycles.cpp	/^bool largeChordTest(graph & g, int k, vector<int> cycle, int **dis){$/;"	f
+last	Klass.hpp	/^	Elem * first,* last;$/;"	m	class:Klass
+last	partition_refinement.hpp	/^	Elem * first, * last;$/;"	m	struct:PartRef
+last	partition_refinement_interval.hpp	/^	Elem * first, * last;$/;"	m	class:PartRefInter
+leftNeighbourhood	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^void leftNeighbourhood(vector<vector<int> > & LN, graph & g, $/;"	f	signature:(vector<vector<int> > & LN, graph & g, vector<int> & per, vector<int> & inv)
+lex	algo_clustering.cpp	/^	vector<int> lex;$/;"	m	struct:node	file:
+lexBFS	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^void lexBFS(graph & g, vector<int> & per,vector<int> & inv){$/;"	f	signature:(graph & g, vector<int> & per,vector<int> & inv)
+lexBFS_plus	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^void lexBFS_plus(graph & g, vector<int> & per, $/;"	f	signature:(graph & g, vector<int> & per, vector<int> & inv, vector<int> & init)
+lexDFS	algo_clustering.cpp	/^void lexDFS(graph & g, int start, vector<int> & per, vector<int> & inv){$/;"	f
+m	GraphIO.hpp	/^	int n,m;$/;"	m	struct:edges
+m	GraphIO.hpp	/^	int n,m;$/;"	m	struct:graph
+m	GraphIO.hpp	/^	int n,m;$/;"	m	struct:graph_edge_nb
+m	GraphIO.hpp	/^	map<int,int> m;$/;"	m	struct:mapping
+m	GraphIO.hpp	/^	map<int,int> m;$/;"	m	struct:mapping_edge_nb
+main	/home/fv/Desktop/TRE/GraphRecognition/SRC/main.cpp	/^int main(int , char * argv[]){$/;"	f	signature:(int , char * argv[])
+mapping	GraphIO.hpp	/^struct mapping{$/;"	s
+mapping_edge_nb	GraphIO.hpp	/^struct mapping_edge_nb{$/;"	s
+merge	dsu.cpp	/^void DSU::merge(int x,int y){$/;"	f	class:DSU
+multiSweep	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^void multiSweep(int k, graph & g, vector<int> & per, vector<int> & inv){$/;"	f	signature:(int k, graph & g, vector<int> & per, vector<int> & inv)
+n	GraphIO.hpp	/^	int n,m;$/;"	m	struct:edges
+n	GraphIO.hpp	/^	int n,m;$/;"	m	struct:graph
+n	GraphIO.hpp	/^	int n,m;$/;"	m	struct:graph_edge_nb
+n	algo.hpp	/^	int n; \/\/original size of the graph$/;"	m	struct:cliqueTree
+n	dsu.hpp	/^	int n;$/;"	m	class:DSU
+n	partition_refinement.hpp	/^	int n;$/;"	m	struct:PartRef
+n	partition_refinement_interval.hpp	/^	int n,nbCliques;$/;"	m	class:PartRefInter
+nbCliques	partition_refinement_interval.hpp	/^	int n,nbCliques;$/;"	m	class:PartRefInter
+newman_greedy_clustering	algo_clustering.cpp	/^void newman_greedy_clustering(graph & g, edges & e, int & nbCommunities, vector<int>& assign){$/;"	f
+next	Elem.hpp	/^	Elem * prev, *next;$/;"	m	class:Elem
+next	Klass.hpp	/^	Klass * prev,* next;$/;"	m	class:Klass
+node	algo_clustering.cpp	/^struct node{$/;"	s	file:
+operator <	algo_clustering.cpp	/^	bool operator < (const node & rhs){$/;"	f	struct:node
+operator <<	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^ostream & operator << (ostream & os, Color const &c){$/;"	f	signature:(ostream & os, Color const &c)
+output_cycles	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo_union.cpp	/^void output_cycles(graph & g, edges & e, int & co, vector<int> & member, string output){$/;"	f	signature:(graph & g, edges & e, int & co, vector<int> & member, string output)
+par	dsu.hpp	/^	int * par;$/;"	m	class:DSU
+parent	Elem.hpp	/^	Klass * parent;$/;"	m	class:Elem
+partition	partition_refinement.cpp	/^void PartRef::partition(vector<vector<int> > &pivots){$/;"	f	class:PartRef
+partition	partition_refinement_interval.cpp	/^void PartRefInter::partition(vector<int> & clique_order){$/;"	f	class:PartRefInter
+per	partition_refinement.hpp	/^	vector<int> per,inv;$/;"	m	struct:PartRef
+pivots	partition_refinement_interval.hpp	/^	stack<int> pivots;$/;"	m	class:PartRefInter
+prev	Elem.hpp	/^	Elem * prev, *next;$/;"	m	class:Elem
+prev	Klass.hpp	/^	Klass * prev,* next;$/;"	m	class:Klass
+print	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::print(Klass * par){$/;"	f	class:Klass	signature:(Klass * par)
+print_cliqueTree	test.cpp	/^void print_cliqueTree(cliqueTree & ct){$/;"	f
+print_cliques	partition_refinement_interval.cpp	/^void print_cliques(Klass * k, vector<vector<int> > & cliques){$/;"	f
+print_intervals	test.cpp	/^void print_intervals(vector<vector<pair<int,int> > > & intervals){$/;"	f
+print_vector	test.cpp	/^template<typename T> void print_vector(vector<T> & v){$/;"	f
+print_vv	test.cpp	/^template<typename T> void print_vv(vector<vector<T> > & v){$/;"	f
+quotient_graph	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo_union.cpp	/^void quotient_graph(edges & e, graph & co_g, int co, const vector<int> &member){$/;"	f	signature:(edges & e, graph & co_g, int co, const vector<int> &member)
+r	utility.hpp	/^	int r,b,g;$/;"	m	struct:Color
+read_cc	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool read_cc(mapping & m, char * input){$/;"	f	signature:(mapping & m, char * input)
+read_cc_edge_nb	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool read_cc_edge_nb(mapping_edge_nb & m, char * input){$/;"	f	signature:(mapping_edge_nb & m, char * input)
+read_edges	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool read_edges(edges & e, char * input){$/;"	f	signature:(edges & e, char * input)
+read_graph	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool read_graph(graph & g, char * input){$/;"	f	signature:(graph & g, char * input)
+read_graph_coloring	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool read_graph_coloring(graph & g, edges & e, int &nb, vector<int> &col, char * input, int k){$/;"	f	signature:(graph & g, edges & e, int &nb, vector<int> &col, char * input, int k)
+read_graph_edge_nb	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^bool read_graph_edge_nb(graph_edge_nb & g, char * input){$/;"	f	signature:(graph_edge_nb & g, char * input)
+reinit	dsu.cpp	/^void DSU::reinit(){$/;"	f	class:DSU
+remove	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::remove(){$/;"	f	class:Klass	signature:()
+remove	Elem.cpp	/^void Elem::remove(){$/;"	f	class:Elem
+reorderNeighbourhoood	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo.cpp	/^void reorderNeighbourhoood(vector<vector<int> > & orig, $/;"	f	signature:(vector<vector<int> > & orig, vector<vector<int > > & new_order, vector<int> & order)
+seperators	partition_refinement_interval.hpp	/^	vector<vector<int > > & seperators;	$/;"	m	class:PartRefInter
+set	/home/fv/Desktop/TRE/GraphRecognition/SRC/utility.cpp	/^void Color::set(int i, int c){$/;"	f	class:Color	signature:(int i, int c)
+setLast	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::setLast(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+setParent	Elem.cpp	/^void Elem::setParent(Klass * parent){$/;"	f	class:Elem
+setStamp	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::setStamp(int stamp){$/;"	f	class:Klass	signature:(int stamp)
+size	Klass.hpp	/^	int size;$/;"	m	class:Klass
+sort_edges_betweeness	algo_clustering.cpp	/^void sort_edges_betweeness(graph & g,edges & e,int l,int * edge_order){$/;"	f
+split_string	/home/fv/Desktop/TRE/GraphRecognition/SRC/GraphIO.cpp	/^void split_string(string s,char delim, vector<string> & elems){$/;"	f	signature:(string s,char delim, vector<string> & elems)
+stamp	Klass.hpp	/^	int stamp;$/;"	m	class:Klass
+testCliqueTree	test.cpp	/^void testCliqueTree(graph & g){$/;"	f
+testIntervalGraph	test.cpp	/^void testIntervalGraph(graph & g){$/;"	f
+testLexBFS	test.cpp	/^void testLexBFS(graph & g){$/;"	f
+testLexBFS_plus	test.cpp	/^void testLexBFS_plus(graph & g, vector<int> init){$/;"	f
+testLexDFS	test.cpp	/^void testLexDFS(graph & g){$/;"	f
+testMultiSweep	test.cpp	/^void testMultiSweep(graph & g){$/;"	f
+timer	partition_refinement.hpp	/^	int timer;$/;"	m	struct:PartRef
+timer	partition_refinement_interval.hpp	/^	int timer,counter;$/;"	m	class:PartRefInter
+u	GraphIO.hpp	/^	vector<int> u,v;$/;"	m	struct:edges
+unifying_laminars	/home/fv/Desktop/TRE/GraphRecognition/SRC/algo_union.cpp	/^template <typename T> void unifying_laminars(const graph & g,const edges & e,double density_qc, int laminar_index,$/;"	f	signature:(const graph & g,const edges & e,double density_qc, int laminar_index, int &co, vector<int>& member, int unify_type, CovId & ci)
+updateFirstLast	/home/fv/Desktop/classification-of-read-graphs.git/SRC/Klass.cpp	/^void Klass::updateFirstLast(Elem * e){$/;"	f	class:Klass	signature:(Elem * e)
+updateNext	Elem.cpp	/^void Elem::updateNext(Elem * e){$/;"	f	class:Elem
+updatePrev	Elem.cpp	/^void Elem::updatePrev(Elem * e){$/;"	f	class:Elem
+used	partition_refinement.hpp	/^	vector<bool> used;$/;"	m	struct:PartRef
+used_edges	partition_refinement_interval.hpp	/^	vector<bool> used_pivots,used_edges;$/;"	m	class:PartRefInter
+used_pivots	partition_refinement_interval.hpp	/^	vector<bool> used_pivots,used_edges;$/;"	m	class:PartRefInter
+v	GraphIO.hpp	/^	vector<int> u,v;$/;"	m	struct:edges
+vertices_in_clique	partition_refinement_interval.hpp	/^	vector<vector<int > > & vertices_in_clique;	$/;"	m	class:PartRefInter
+~DSU	dsu.cpp	/^DSU::~DSU(){$/;"	f	class:DSU
+~PartRef	partition_refinement.cpp	/^PartRef::~PartRef(){$/;"	f	class:PartRef
+~PartRefInter	partition_refinement_interval.cpp	/^PartRefInter::~PartRefInter(){$/;"	f	class:PartRefInter
