@@ -7,15 +7,15 @@ int diameter(graph & g);
 
 bool diameter_check(graph & g, int k);
 
-/* Algorithm as described in 
- * Oon computing the diameter of real-world undirected graphs.
+/* Algorithm as described in
+ * On computing the diameter of real-world undirected graphs.
  * Crescenzi et al.
  */
 
 void FOURsweep(graph & g, int & u, int & lb);
 
-/* Algorithm as described in 
- * Oon computing the diameter of real-world undirected graphs.
+/* Algorithm as described in
+ * On computing the diameter of real-world undirected graphs.
  * Crescenzi et al.
  *
  * With worst case O(nm), but faster in practice.
