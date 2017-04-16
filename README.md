@@ -8,7 +8,7 @@ See [algo.cpp](./SRC/algo.cpp) for details.
 
 
 Contains a fast (in practice) diameter algoritm as described in
-![On computing the diameter of real-world undirected graphs](http://www.sciencedirect.com/science/article/pii/S0304397512008687).
+![On computing the diameter of real-world undirected graphs, Crescenzi et al.](http://www.sciencedirect.com/science/article/pii/S0304397512008687).
 
 See [algo_clique.cpp](./SRC/algo_clique.cpp)
 
